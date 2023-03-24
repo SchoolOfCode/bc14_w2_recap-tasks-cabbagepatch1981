@@ -10,3 +10,13 @@ const celebs = [
   "Richard Osman",
   "Emma Thompson"
 ];
+
+
+// Task 1 Part 1
+function makeLegend(name) {
+  return name + " is a legend";
+}
+
+console.log(makeLegend("My dad"));
+
+// Task 1 Part 2
