@@ -28,11 +28,28 @@ console.log(makeLegend);
 
 const legendaryCelebs = [];
 
-for(let i=0; i <celebs.length; i++) {
+for(let i=0; i < celebs.length; i++) {
   legendaryCelebs.push(makeLegend(celebs[i]));
 }
 
 console.log(celebs);
 console.log(legendaryCelebs);
 
-// Task 1 Part 3
+// Task 1 Part 3🍏 
+// Use another for loop to produce a new array of all of the celebrity names which start with a vowel, and store that new array in a new variable called `vowelCelebs`.
+
+// Declare variable vowelCelebs
+const vowelCelebs = [];
+// For loop to find first letter in the array
+for(let i = 0; i < celebs.length; i++) {
+  let firstLetter = celebs[i][0];
+// If statement to check if the first letter is a vowel
+// If first letter = A E I O U then assign to vowelCelebs else ignore
+  if (firstLetter === "A" || firstLetter === "E" || firstLetter === "I" || firstLetter === "O" || firstLetter === "U") {
+// Then add this new list of celebs with vowel as start of name to the variable vowelCelebs   
+    vowelCelebs.push(celebs[i]);
+  }
+} 
+
+console.log(vowelCelebs);
+
