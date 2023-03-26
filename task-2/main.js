@@ -1,6 +1,6 @@
 // Task 2: Create a counter that counts up to 12 and then stops
     // Find the `p` tag (with an id of `count`) 🧩  
-    // Count displays 0 when the page loads
+    // Count displays 0 when the page loads 🧩 
     // Using `setInterval` to increment count by 1 every second. 🧩 
     // Stop the interval from incrementing after 12 seconds using the [clearInterval] 🧩 
 

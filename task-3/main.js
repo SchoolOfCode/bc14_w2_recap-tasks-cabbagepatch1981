@@ -15,6 +15,7 @@ You already have a function which grabs new images and updates the image shown o
 
 // image API URL
 const apiUrl = 'https://api.thecatapi.com/v1/images/search';
+const catImgElement = document.getElementById('cat-here'); // get the cat image element from the DOM
 
 // define async function to fetch a new cat image from the API
 async function fetchCatImage() {
@@ -22,11 +23,9 @@ async function fetchCatImage() {
   const data = await response.json(); // parse the response data as JSON
   return data[0].url; // extract the image URL from the data and return it
 }
-
 // define async function to update the cat image on the page
 async function updateCatImage() {
   const newCatImage = await fetchCatImage(); // fetch a new cat image from the API
-  const catImgElement = document.getElementById('cat-here'); // get the cat image element from the DOM
   catImgElement.src = newCatImage; // set the src attribute of the image element to the new cat image URL
 }
 
