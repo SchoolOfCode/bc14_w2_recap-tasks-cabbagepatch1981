@@ -22,19 +22,11 @@ function countUp() {
         clearInterval(interval);
     }
 }
+// Set interval of one second between counts
+interval = setInterval(countUp, 1000);
+// call function
+countUp(); 
 
-// Define the function startCountUp
-function startCountUp() {
-    // Set the interval variable to the ID returned by setInterval which calls the countUp function every second
-    interval = setInterval(countUp, 1000);
-}
 
-// Define the function myStopFunction
-function myStopFunction() {
-    // Stop the interval using the clearInterval function
-    clearInterval(interval);
-    }
 
-// Call the startCountUp function to begin the counting when the page loads 
-    startCountUp(); 
 
