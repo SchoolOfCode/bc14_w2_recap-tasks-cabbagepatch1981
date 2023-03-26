@@ -16,8 +16,10 @@ const celebs = [
 // Write a function called `makeLegend`, which takes in a `name` (string) as its only argument. The function should return a new string which includes the name plus the words `' is now a legend.'`🍎  
 
 function makeLegend(name) {
-  return name + " is now a legend";
+  return `${name} is now a legend`;
 }
+
+// return `${name} is now a legend`;
 
 console.log(makeLegend);
 
