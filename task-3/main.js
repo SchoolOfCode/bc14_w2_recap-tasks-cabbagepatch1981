@@ -40,4 +40,3 @@ document.body.appendChild(buttonElement);
 
 // call the updateCatImage function once to display a cat image when the page loads
 updateCatImage();
- // call the function to update the image on page load
