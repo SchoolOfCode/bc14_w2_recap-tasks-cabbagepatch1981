@@ -1,0 +1,17 @@
+body {
+    background-color: #f8eded;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  #count {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 48px;
+    color: #8e8e8e;
+    padding: 20px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+    background-color: #f0d9e7;
+  }
+  
