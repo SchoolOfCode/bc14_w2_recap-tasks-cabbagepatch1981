@@ -12,18 +12,21 @@ const celebs = [
 ];
 
 
-// Task 1 Part 1 🍏 
+// Task 1 Part 1 🍏 and Bonus Task 2
 // Write a function called `makeLegend`, which takes in a `name` (string) as its only argument. The function should return a new string which includes the name plus the words `' is now a legend.'`🍎  
+// // Bonus Task 2
+//  For the `makeLegend` function from Task 1, **refactor** it to check that you were handed a string - if you weren't, then return `'A legend requires a string'` instead. 🍎 
 
 function makeLegend(name) {
+  if (typeof name !== 'string') {
+    return 'A legend requires a string'; 
+  } 
   return `${name} is now a legend`;
 }
 
+console.log(makeLegend("My dad"));
 // return `${name} is now a legend`;
 
-console.log(makeLegend);
-
-//console.log(makeLegend("My dad"));
 
 // Task 1 Part 2 🍏 
 // Using the `makeLegend` function, the `celebs` array and a `for` loop, create a new array which includes `' is now a legend.'` for each celebrity. Save this new array to the variable `legendaryCelebs`.🍎 
@@ -54,3 +57,7 @@ for(let i = 0; i < celebs.length; i++) {
 } 
 
 console.log(vowelCelebs);
+
+
+
+
