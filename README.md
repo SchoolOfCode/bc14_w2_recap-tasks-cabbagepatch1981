@@ -8,25 +8,25 @@ Note: You can [click here](https://docs.google.com/spreadsheets/d/1ZtNGUhP50j8S2
 
 ## Task 1
 
-👉 Write a function called `makeLegend`, which takes in a `name` (string) as its only argument. The function should return a new string which includes the name plus the words `' is now a legend.'`.
+👉 Write a function called `makeLegend`, which takes in a `name`🧩(string) as its only argument. The function should return a new string which includes the name plus the words `' is now a legend.'`.    
 
-- For example, if the function was called with the name `'Chris'`, it should return the string `'Chris is now a legend.'`.
+- For example, if the function was called with the name `'Chris'`, it should return the string `'Chris is now a legend.'`.🧩 
 
-👉 Using the `makeLegend` function, the `celebs` array and a `for` loop, create a new array which includes `' is now a legend.'` for each celebrity. Save this new array to the variable `legendaryCelebs`.
+👉 Using the `makeLegend` function, the `celebs` array and a `for` loop, create a new array which includes `' is now a legend.'` for each celebrity. Save this new array to the variable `legendaryCelebs`.🧩
 
-- For example, if the `celebs` array was `["Chris", "Liz", "Alice"]` to begin with, then `legendaryCelebs` would contain `["Chris is now a legend.", "Liz is now a legend.", "Alice is now a legend."]`
+- For example, if the `celebs` array was `["Chris", "Liz", "Alice"]` to begin with, then `legendaryCelebs` would contain `["Chris is now a legend.", "Liz is now a legend.", "Alice is now a legend."]`🧩
 
-👉 Use another for loop to produce a new array of all of the celebrity names which start with a vowel, and store that new array in a new variable called `vowelCelebs`.
+👉 Use another for loop to produce a new array of all of the celebrity names which start with a vowel, and store that new array in a new variable called `vowelCelebs`.🧩
 
-- For example, if the `celebs` array was `["Chris", "Liz", "Alice"]` to begin with, then `vowelCelebs` should contain `["Alice"]` (as Alice is the only name that begins with a vowel).
+- For example, if the `celebs` array was `["Chris", "Liz", "Alice"]` to begin with, then `vowelCelebs` should contain `["Alice"]` (as Alice is the only name that begins with a vowel).🧩
 
 ## Task 2
 
 [Click for hints if you get stuck](#hints)
 
-👉 In the task-2 `index.html`, there is a `p` tag (with an id of `count`) that displays a count. Ensure the count displays 0 when the page loads and then, using `setInterval`, have it increment by 1 every second.
+👉 In the task-2 `index.html`, there is a `p` tag (with an id of `count`) that displays a count. Ensure the count displays 0 when the page loads and then, using `setInterval`, have it increment by 1 every second.🧩
 
-👉 Stop the above interval from incrementing after 12 seconds have passed using the [clearInterval](https://www.w3schools.com/jsref/met_win_clearinterval.asp) function. So 12 should be the last count displayed on the page.
+👉 Stop the above interval from incrementing after 12 seconds have passed using the [clearInterval](https://www.w3schools.com/jsref/met_win_clearinterval.asp) function. So 12 should be the last count displayed on the page.🧩
 
 ## Task 3
 
@@ -34,11 +34,11 @@ Note: You can [click here](https://docs.google.com/spreadsheets/d/1ZtNGUhP50j8S2
 
 For this task, you'll be using the [Cat API](https://thecatapi.com/) to get image URLs.
 
-👉 Using `fetch`, get a random cat image URL using the API URL: https://api.thecatapi.com/v1/images/search
+👉 Using `fetch`, get a random cat image URL using the API URL: https://api.thecatapi.com/v1/images/search 🧩
 
-👉 Once you have retrieved your image URL, display the image on the page using the `img` element provided (with id of `cat-here`). A different picture should be displayed every time you reload the page.
+👉 Once you have retrieved your image URL, display the image on the page using the `img` element provided (with id of `cat-here`). A different picture should be displayed every time you reload the page. 🧩
 
-👉 Using JavaScript, create a button element and add it to the page. Add an event listener to the button so that, when you click the button, a new image is displayed.
+👉 Using JavaScript, create a button element and add it to the page. Add an event listener to the button so that, when you click the button, a new image is displayed. 🧩
 
 ## ⭐ Bonus
 
